@@ -1,5 +1,14 @@
 # Desenvolvimento projeto com ReactJs
 
+# Usado no Projeto
+	- Bower
+	- Booststrap
+		bower install bootstrap
+	- ReactJs
+	- Sass
+	- Gulp
+	- Live-server
+
 # Requisitos
 	- Webpack ( webpack -w )
 	- React
