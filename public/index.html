@@ -10,6 +10,9 @@
 </head>
 <body>
 	<div id="app"></div>
+	<a href="#" class="scroll-to-top">
+		<i class="fa fa-arrow-circle-up"></i>
+	</a>
 	<script src="bundle.js"></script>
 	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 	<script>
@@ -19,8 +22,20 @@
 				$('.menu-responsivo').toggleClass('ativo');
 				$(this).toggleClass('ativo');
 			});
-		});
+			
+			$(window).scroll(function(){
+				if($(this).scrollTop() >= 500) {
+					$('.scroll-to-top').addClass('ativo');
+				} else {
+					$('.scroll-to-top').removeClass('ativo');
+				}
+			});
 
+			$('.scroll-to-top').click(function(){
+				$('html, body').animate({scrollTop: 0},800);
+			});
+
+		});
 	</script>
 </body>
 </html>
