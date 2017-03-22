@@ -1,0 +1,209 @@
+header {
+	@include clearfix;
+	background: url('../imagens/estadio-baseball.jpg') #000 no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 475px;
+	width: 100%;
+	.logo {
+		float: left;
+		margin: 30px 0 0;
+		img {
+			width: 50px;
+			height: auto;
+		}
+	}
+	.links {
+		float: right;
+		nav, .social {
+			display: inline-block;
+		}
+		nav {
+			ul {
+				li {
+					display: inline-block;
+					margin: 40px 10px 0;
+					a {
+						text-transform: uppercase;
+						color: $branco;
+					}
+				}
+			}
+		}
+		.social {
+			margin-right: 20px;
+			font-size: 20px;
+			li {
+				display: inline-block;
+				margin: 30px 3px 0;
+				background-color: $azul;
+				border-radius: 100%;
+    			padding: 2px 12px 2px 12px;
+    			a {
+    				color: $branco;
+    			}
+			}
+		}
+	}
+	h1,
+	p {
+		color: $branco;
+		text-transform: uppercase;
+		text-align: center;
+	}
+	h1 {
+		clear: both;
+		margin: 160px auto 30px auto;
+		padding: 25px;
+		border: 3px solid $branco;
+		color: $branco;
+		display: table;
+
+
+		strong {
+			> span {
+				color: $verde;
+			}
+		}
+	}
+	p {
+	}
+}
+
+#contato {
+	margin: 70px 0 70px 0;
+	.contato-detalhado {
+		position: absolute;
+	    left: 83%;
+	    top: -4%;
+	    background-color: #4c9cef;
+	    padding: 10px 20px;
+	    border-radius: 5px;
+	    font-weight: 600;
+	    a {
+	    	color: $branco;
+	    }
+	}
+	.contate-me {
+		padding: 50px;
+	    background-color: #ffffff;
+	    box-shadow: -2px 40px 34px -24px rgba(0, 0, 0, 0.2);
+	    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+	    border: solid 7px #4c9cef;
+	    border-left-color: #FFA500;
+	    border-right-color: #FFA500;
+		
+		.form-control {
+			border: 2px solid transparent;
+		    height: 50px;
+		    border-radius: 2px;
+		    -webkit-border-radius: 2px;
+		    -moz-border-radius: 2px;
+		    -ms-border-radius: 2px;
+		    -o-border-radius: 2px;
+		    -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+		    -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+		    -ms-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+		    -o-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+		    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+		    -webkit-transition: all 150ms ease-in-out 0s;
+		    -moz-transition: all 150ms ease-in-out 0s;
+		    -ms-transition: all 150ms ease-in-out 0s;
+		    -o-transition: all 150ms ease-in-out 0s;
+		    transition: all 150ms ease-in-out 0s;
+		}
+	    .textarea-msg {
+	    	height: auto;
+	    }
+
+	    .button {
+	    	border: 2px solid $preto;
+		    border-radius: 5px;
+		    font-size: 17px;
+		    font-family: 'Open Sans';
+		    color: $preto;
+		    background: none;
+		    cursor: pointer;
+		    padding: 20px 60px;
+		    display: inline-block;
+		    text-transform: uppercase;
+		    letter-spacing: 0.5px;
+		    font-weight: 900;
+		    outline: none;
+		    position: relative;
+		    -webkit-transition: all 0.3s;
+		    -moz-transition: all 0.3s;
+		    transition: all 0.3s;
+		    margin: 10px 0 0;
+
+		    &:hover {
+		    	background-color: $laranja;
+		    	color: $branco;
+		    }
+	    }
+	}
+
+}
+
+footer {
+	width: 100%;
+	min-height: 200px;
+	padding: 30px 0 0;
+	background-color: $branco;
+	text-align: center;
+	background: url('../imagens/games-bg.jpg') repeat;
+	background-size: cover;
+	opacity: 0.8;
+	
+	.logo-footer {
+		float: left;
+		margin: 10px 0 0;
+		img {
+			width: 50px;
+			height: auto;
+		}
+	}
+	.links-footer {
+		ul {
+			li {
+				list-style: none;
+				display: inline-block;
+				margin: 2px 4px;
+				a {
+					display: block;
+				    width: 60px;
+				    height: 60px;
+				    line-height: 60px;
+				    color: $branco;
+				    text-align: center;
+				    border: 0 none;
+				    border-radius: 50%;
+				    font-size: 27px;
+				    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+				    transition: all 0.3s ease-in-out;
+
+				    &:hover {
+				    	box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.80);
+					}
+				}
+				.facebook {
+					background-color: $facebook;
+				}
+				.linkedin {
+					background-color: $linkedin;
+				}
+				.google-plus {
+					background-color: $google;
+				}
+				.github {
+					background-color: $preto;
+				}
+			}
+		}
+	}
+	.copyright {
+		margin: 45px 0 0;
+		font-weight: bold;
+		color: $preto;
+	}
+}
