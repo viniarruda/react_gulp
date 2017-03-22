@@ -5,6 +5,17 @@ var Contato = React.createClass({
 			<section id="contato">
 				<div className="container">
 					<div className="row">
+		                <div className="col-sm-12">
+		                    <div className="titulo-contato">
+		                        <h2>Contato</h2>
+		                          <div className="divider">
+								  	<i className="fa fa-envelope-open"></i>
+								 </div>
+		                        <p>Ainda tem dúvidas e quer me perguntar algo? Fique a vontade</p>
+		                    </div>
+		                </div>
+		            </div>
+					<div className="row">
 						<div className="col-md-offset-3 col-sm-offset-2 col-md-6 col-sm-8">
 							<div className="row">
 								<div className="contato-detalhado">

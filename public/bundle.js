@@ -9804,6 +9804,33 @@ var Contato = React.createClass({
 					{ className: "row" },
 					React.createElement(
 						"div",
+						{ className: "col-sm-12" },
+						React.createElement(
+							"div",
+							{ className: "titulo-contato" },
+							React.createElement(
+								"h2",
+								null,
+								"Contato"
+							),
+							React.createElement(
+								"div",
+								{ className: "divider" },
+								React.createElement("i", { className: "fa fa-envelope-open" })
+							),
+							React.createElement(
+								"p",
+								null,
+								"Ainda tem d\xFAvidas e quer me perguntar algo? Fique a vontade"
+							)
+						)
+					)
+				),
+				React.createElement(
+					"div",
+					{ className: "row" },
+					React.createElement(
+						"div",
 						{ className: "col-md-offset-3 col-sm-offset-2 col-md-6 col-sm-8" },
 						React.createElement(
 							"div",
@@ -9972,131 +9999,203 @@ var Header = React.createClass({
 
 	render: function () {
 		return React.createElement(
-			"header",
-			null,
+			"div",
+			{ className: "header" },
+			React.createElement(
+				"nav",
+				{ className: "menu-responsivo" },
+				React.createElement(
+					"ul",
+					null,
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "#" },
+							"In\xEDcio"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "#sobre" },
+							"Sobre"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "#portfolio" },
+							"Portfolio"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "#depoimentos" },
+							"Depoimentos"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
+							{ href: "#contato" },
+							"Contato"
+						)
+					)
+				)
+			),
 			React.createElement(
 				"div",
-				{ className: "container" },
+				{ className: "layout" },
 				React.createElement(
-					"div",
-					{ className: "logo" },
+					"header",
+					null,
 					React.createElement(
-						"a",
-						{ href: "index.html" },
-						React.createElement("img", { src: "../app/src/imagens/law.png", alt: "Logo Topo" })
-					)
-				),
-				React.createElement(
-					"div",
-					{ className: "links" },
-					React.createElement(
-						"nav",
-						null,
+						"div",
+						{ className: "container" },
 						React.createElement(
-							"ul",
-							null,
+							"div",
+							{ className: "menu" },
 							React.createElement(
-								"li",
-								null,
+								"div",
+								{ className: "logo" },
 								React.createElement(
 									"a",
-									{ href: "#" },
-									"Home"
+									{ href: "index.html" },
+									React.createElement("img", { src: "../app/src/imagens/law.png", alt: "Logo Topo" })
 								)
 							),
 							React.createElement(
-								"li",
-								null,
+								"div",
+								{ className: "links" },
+								React.createElement(
+									"nav",
+									null,
+									React.createElement(
+										"ul",
+										null,
+										React.createElement(
+											"li",
+											null,
+											React.createElement(
+												"a",
+												{ href: "#" },
+												"Home"
+											)
+										),
+										React.createElement(
+											"li",
+											null,
+											React.createElement(
+												"a",
+												{ href: "#sobre" },
+												"Sobre"
+											)
+										),
+										React.createElement(
+											"li",
+											null,
+											React.createElement(
+												"a",
+												{ href: "#portfolio" },
+												"Portf\xF3lio"
+											)
+										),
+										React.createElement(
+											"li",
+											null,
+											React.createElement(
+												"a",
+												{ href: "#depoimentos" },
+												"Depoimentos"
+											)
+										),
+										React.createElement(
+											"li",
+											null,
+											React.createElement(
+												"a",
+												{ href: "#contato" },
+												"Contato"
+											)
+										)
+									)
+								),
 								React.createElement(
 									"a",
-									{ href: "#sobre" },
-									"Sobre"
-								)
-							),
-							React.createElement(
-								"li",
-								null,
+									{ href: "javascript:;", className: "toggle" },
+									React.createElement("span", null),
+									React.createElement("span", null),
+									React.createElement("span", null)
+								),
 								React.createElement(
-									"a",
-									{ href: "#portfolio" },
-									"Portf\xF3lio"
+									"ul",
+									{ className: "social" },
+									React.createElement(
+										"li",
+										null,
+										React.createElement(
+											"a",
+											{ href: "#" },
+											React.createElement("i", { className: "fa fa-facebook" })
+										)
+									),
+									React.createElement(
+										"li",
+										null,
+										React.createElement(
+											"a",
+											{ href: "#" },
+											React.createElement("i", { className: "fa fa-linkedin" })
+										)
+									),
+									React.createElement(
+										"li",
+										null,
+										React.createElement(
+											"a",
+											{ href: "#" },
+											React.createElement("i", { className: "fa fa-github" })
+										)
+									)
 								)
-							),
-							React.createElement(
-								"li",
-								null,
-								React.createElement(
-									"a",
-									{ href: "#depoimentos" },
-									"Depoimentos"
-								)
-							),
-							React.createElement(
-								"li",
-								null,
-								React.createElement(
-									"a",
-									{ href: "#contato" },
-									"Contato"
-								)
-							)
-						)
-					),
-					React.createElement(
-						"ul",
-						{ className: "social" },
-						React.createElement(
-							"li",
-							null,
-							React.createElement(
-								"a",
-								{ href: "#" },
-								React.createElement("i", { className: "fa fa-facebook" })
 							)
 						),
 						React.createElement(
-							"li",
+							"h1",
 							null,
 							React.createElement(
-								"a",
-								{ href: "#" },
-								React.createElement("i", { className: "fa fa-linkedin" })
+								"strong",
+								null,
+								"Vin\xEDcius "
+							),
+							"A. de ",
+							React.createElement(
+								"strong",
+								null,
+								React.createElement(
+									"span",
+									null,
+									"Souza"
+								)
 							)
 						),
 						React.createElement(
-							"li",
+							"p",
 							null,
-							React.createElement(
-								"a",
-								{ href: "#" },
-								React.createElement("i", { className: "fa fa-github" })
-							)
+							"Desenvolvedor Front-End"
 						)
 					)
-				),
-				React.createElement(
-					"h1",
-					null,
-					React.createElement(
-						"strong",
-						null,
-						"Vin\xEDcius "
-					),
-					"A. de ",
-					React.createElement(
-						"strong",
-						null,
-						React.createElement(
-							"span",
-							null,
-							"Souza"
-						)
-					)
-				),
-				React.createElement(
-					"p",
-					null,
-					"Desenvolvedor Front-End"
 				)
 			)
 		);
