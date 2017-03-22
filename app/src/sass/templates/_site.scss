@@ -95,6 +95,7 @@ header {
 		position: relative;
 		overflow: hidden;
 		margin: 30px 12px;
+		display: none;
 
 		&:hover {
 			span {
@@ -358,5 +359,10 @@ footer {
 @media screen and (max-width: $tablet) {
 	header .links > nav {
 		display: none;
+	}
+	header {
+		.toggle {
+			display: block;
+		}
 	}
 }
