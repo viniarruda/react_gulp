@@ -1,6 +1,6 @@
 header {
 	@include clearfix;
-	background: url('../imagens/catcher.jpg') #000 no-repeat top center;
+	background: url('../imagens/code-html.png') #000 no-repeat top center;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 475px;
@@ -192,13 +192,144 @@ header {
 #sobre {
 	@include clearfix;
 	background-color: $branco;
-	min-height: 475px;
+	min-height: 275px;
 	position: relative;
 	width: 100%;
+	padding: 30px 0 60px;
+
+	.avatar {
+		padding: 50px;
+		border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+		border: 7px solid $laranja;
+		border-right-color: $azul-claro;
+		border-left-color: $preto;
+		border-bottom-color: $cinza-claro;
+
+		img {
+			width: 345px;
+			height: auto;
+			padding: 10px;
+			margin: 0 25px;
+		}
+	}
+	.box-habilidades {
+		padding: 70px;
+		margin: 20px 0 0;
+		border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+		border: 7px solid $azul-claro;
+		border-right-color: $laranja;
+		border-left-color: $laranja;
+		text-align: center;
+		background: url('../imagens/development-icons-bg.png') repeat;
+		background-size: cover;
+		a {
+			border: 3px solid $preto;
+			padding: 25px;
+			font-size: 17px;
+			color: $preto;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin: 0 auto;
+			border-radius: 5px;
+			cursor: pointer;
+			letter-spacing: 2px;
+
+			&:hover {
+				background-color: $laranja;
+				color: $branco;
+			}
+		}
+	}
+	.links {	
+		ul {
+			padding-left: 0;
+
+			li {
+				background-color: $azul-claro;
+				padding: 15px 25px 15px 25px;
+				border-radius: 100%;
+				text-align: center;
+				margin: 10px 5px 0;
+				display: inline-block;
+				font-size: 24px;
+				&:hover {
+					padding: 20px 30px 20px 30px;
+				}
+
+				i {
+					color: $branco;
+				}
+			}
+		}
+		.github-btn {
+			padding: 15px 25px 15px 25px;
+			border-radius: 100%;
+			text-align: center;
+			margin: 10px auto;
+			display: block;
+			font-size: 24px;
+			&:hover {
+					padding: 20px 30px 20px 30px;
+			}
+		}
+		.social, .resumo{
+			padding: 50px;
+			border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+		}
+		.social {
+			border: 7px solid $verde;
+			margin: 0 0 10px;
+			background: url('../imagens/apple_bg_icons.png') no-repeat center right;
+			background-size: 60%;
+			text-align: center;	
+		}
+		.resumo {
+			border: 7px solid $laranja;
+		}
+	}
+}
+
+#github {
+	@include clearfix;
+	background-color: #F9F9F9;
+	min-height: 275px;
+	position: relative;
+	width: 100%;
+	@include transition(.2s);
+	
+	h1 {
+		border-bottom: 1px solid #e6e6e6;
+		padding: 5px;
+	}
+	.margin-git {
+		margin: 80px 0;
+	}
+	.margin-bottom {
+		margin: 0 0 20px;
+	}
+	.thumbnail {
+		margin: 0 0 20px;
+		.caption {
+			.badge {
+				margin: 0 15px 0;
+			    background-color: #286090;
+			    padding: 5px;
+			    border-radius: 100%;
+			    color: #fff;
+				i {
+					margin: 0 0 0 5px;
+					color: #e6e600;
+				}
+			}
+			a {
+				margin: 0 0 0 5px;
+			}
+		}
+	}
 }
 
 #depoimentos {
-	background: url('../imagens/rebatedor.jpg') #000 no-repeat top center;
+	background: url('../imagens/catcher.jpg') #000 no-repeat top center;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 475px;
@@ -334,18 +465,6 @@ footer {
 				    	box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.80);
 					}
 				}
-				.facebook {
-					background-color: $facebook;
-				}
-				.linkedin {
-					background-color: $linkedin;
-				}
-				.google-plus {
-					background-color: $google;
-				}
-				.github {
-					background-color: $preto;
-				}
 			}
 		}
 	}
@@ -354,6 +473,22 @@ footer {
 		font-weight: bold;
 		color: $preto;
 	}
+}
+
+
+/* Redes Sociais */
+
+.facebook {
+	background-color: $facebook!important;
+}
+.linkedin {
+	background-color: $linkedin!important;
+}
+.google-plus {
+	background-color: $google!important;
+}
+.github {
+	background-color: $preto!important;
 }
 
 .scroll-to-top{

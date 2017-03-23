@@ -18,7 +18,7 @@
 # Requisitos
 	- Webpack ( webpack -w )
 	- React
-		axios
+		axios ( npm install --save axios)
 	- Babel
 	- Node
 	- Gulp

@@ -5,7 +5,7 @@ var Header = React.createClass({
 			<div className="header">
 				<nav className="menu-responsivo">
 					<ul>
-						<li><a href="#">Início</a></li>
+						<li><a href="index.html">Início</a></li>
 						<li><a href="#sobre">Sobre</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#depoimentos">Depoimentos</a></li>
