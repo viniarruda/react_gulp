@@ -1,6 +1,6 @@
 header {
 	@include clearfix;
-	background: url('../imagens/estadio-baseball.jpg') #000 no-repeat top center;
+	background: url('../imagens/catcher.jpg') #000 no-repeat top center;
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 475px;
@@ -55,9 +55,13 @@ header {
 			li {
 				display: inline-block;
 				margin: 30px 3px 0;
-				background-color: $azul;
+				border: 2px solid $branco;
 				border-radius: 100%;
     			padding: 2px 12px 2px 12px;
+
+    			&:hover {
+    				background-color: $azul-claro;
+    			}
     			a {
     				color: $branco;
     			}
@@ -185,42 +189,36 @@ header {
 	}
 }
 
+#sobre {
+	@include clearfix;
+	background-color: $branco;
+	min-height: 475px;
+	position: relative;
+	width: 100%;
+}
+
+#depoimentos {
+	background: url('../imagens/rebatedor.jpg') #000 no-repeat top center;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 475px;
+	width: 100%;
+	position: relative;
+	.titulo-contato {
+		h2, p {
+			color: $branco;
+		}
+		.divider {
+			i {
+				color: $azul;
+			}
+		}
+	}
+}
+
 #contato {
 	margin: 70px 0 70px 0;
 
-	.titulo-contato {
-		text-align: center;
-		margin-bottom: 20px;
-	}
-	.divider {
-		position: relative;
-		width: 125px;
-		margin: 20px auto 20px;
-		overflow: hidden;
-		text-align: center;
-		&:before {
-			left: 0;
-			content: ' ';
-			width: 43px;
-			position: absolute;
-			border-bottom: dotted 2px #b2b2b2;
-			top: 50%;
-			margin-top: -4px;
-		}
-		&:after {
-			right: 0;
-			content: ' ';
-			width: 43px;
-			position: absolute;
-			border-bottom: dotted 2px #b2b2b2;
-			top: 50%;
-			margin-top: -4px;
-		}
-		i {
-			color: $laranja;
-			font-size: 21px;
-		}
-	}
 	.contato-detalhado {
 		position: absolute;
 	    left: 83%;
@@ -384,6 +382,40 @@ footer {
     }
 }
 
+.titulo-contato {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.divider {
+		position: relative;
+		width: 125px;
+		margin: 20px auto 20px;
+		overflow: hidden;
+		text-align: center;
+		&:before {
+			left: 0;
+			content: ' ';
+			width: 43px;
+			position: absolute;
+			border-bottom: dotted 2px #b2b2b2;
+			top: 50%;
+			margin-top: -4px;
+		}
+		&:after {
+			right: 0;
+			content: ' ';
+			width: 43px;
+			position: absolute;
+			border-bottom: dotted 2px #b2b2b2;
+			top: 50%;
+			margin-top: -4px;
+		}
+		i {
+			color: $laranja;
+			font-size: 21px;
+		}
+	}
+
 @media screen and (max-width: $tablet) {
 	header .links > nav {
 		display: none;
@@ -399,7 +431,17 @@ footer {
 			}
 		}
 		.logo {
-			margin: 23px 40px 0;
+			margin: 23px 23px 0;
+		}
+		.links {
+			margin: 0 2px 0;
+			.social {
+				li {
+					&:hover {
+						background-color: $laranja;
+					}
+				}
+			}
 		}
 		.menu {
 			background-color: $azul-claro;
