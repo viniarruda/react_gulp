@@ -49,7 +49,7 @@ var Sobre = React.createClass({
 							            </form>
 									</div>
 						           	<div className="resumo">
-					            		<p>Me chamo Vinícius Arruda de Souza e tenho 20 anos, estou cursando o 4º ano de Sistemas de Informação na FIAP. Trabalho com Web a cerca de 2 anos e meio e sempre estou em busca de melhores práticas e conhecimentos. Meu conhecimento em Web se baseia em Front-End como pode ver <a href="#habilidades">clicando aqui</a>. Já participei de diversos projetos onde utilizavam diferentes tipos de tecnologias, você pode saber um pouco mais sobre eles olhando em meu portfólio.</p>
+					            		<p>Me chamo Vinícius Arruda de Souza e tenho 20 anos, estou cursando o 4º ano de Sistemas de Informação na FIAP. Trabalho com Web a cerca de 2 anos e meio e sempre estou em busca de melhores práticas e conhecimentos. Já participei de diversos projetos onde utilizavam diferentes tipos de tecnologias, você pode saber um pouco mais sobre eles olhando em meu portfólio.</p>
 					            	</div>
 						        </div>
 				            </div>

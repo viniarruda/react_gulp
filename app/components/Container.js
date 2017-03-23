@@ -2,6 +2,7 @@ var React = require('react');
 var Header = require('./Header');
 var Sobre = require('./Sobre');
 var GitHub = require('./GitHub');
+var Habilidades = require('./Habilidades');
 var Portfolio = require('./Portfolio');
 var Depoimentos = require('./Depoimentos');
 var Contato = require('./Contato');
@@ -31,7 +32,8 @@ var Container = React.createClass({
 				<GitHub 
 		            user={this.state.user}
           			repos={this.state.repos}
-		        /> 
+		        />
+		        <Habilidades />
 				<Portfolio />
 				<Depoimentos />
 				<Contato />

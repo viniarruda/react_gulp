@@ -200,16 +200,13 @@ header {
 	.avatar {
 		padding: 50px;
 		border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-		border: 7px solid $laranja;
-		border-right-color: $azul-claro;
-		border-left-color: $preto;
-		border-bottom-color: $cinza-claro;
+		border: 7px solid $cinza-claro;
 
 		img {
-			width: 345px;
+			width: 100%;
 			height: auto;
 			padding: 10px;
-			margin: 0 25px;
+			margin: 0 auto;
 		}
 	}
 	.box-habilidades {
@@ -285,7 +282,78 @@ header {
 		}
 		.resumo {
 			border: 7px solid $laranja;
+			border-right-color: $azul-claro;
+			border-left-color: $azul-claro;
+			p {
+				&:first-letter {
+					text-transform: uppercase;
+					font-size: 24px;
+					color: $laranja;
+
+				}
+			}
 		}
+	}
+}
+#habilidades {
+	@include clearfix;
+	background-color: #F9F9F9;
+	min-height: 475px;
+	position: relative;
+	width: 100%;
+	margin: 70px 0 0;
+
+	.skill {
+		background-color: $branco;
+		box-shadow: -2px 40px 34px -24px rgba(0, 0, 0, 0.2);
+		border-radius: 100%;
+		transition: all 0.3s ease-in-out;
+	    position: relative;
+	    width: 300px;
+	    height: 300px;
+	    text-align: center;
+	    margin: 20px auto 40px;
+	    padding: 80px 0;
+
+	    &:hover {
+    		box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    		top: -5px;    	
+	    }
+
+	    i {
+	    	font-size: 50px;
+	    	&.fa-html5 {
+				color: $laranja;
+	    	}
+			&.fa-css3 {
+				color: $linkedin;
+			}
+			&.fa-mobile {
+				color: #e6e6e6;
+			}
+			&.fa-code {
+				color: yellow;
+			}
+			&.fa-asterisk {
+				color: azul-claro;
+			}
+			&.fa-wordpress {
+				color: $azul;
+			}
+			&.fa-bolt {
+				color: yellow;
+			}
+			&.fa-check {
+				color: $preto;
+			}
+	    }
+	    p {
+	    	font-weight: 900;
+	    	border-bottom: 3px solid $preto;
+	    	font-size: 24px;
+	    	width: 140px;
+	    	margin: 0 auto;
+	    }
 	}
 }
 
@@ -324,6 +392,27 @@ header {
 			a {
 				margin: 0 0 0 5px;
 			}
+		}
+	}
+}
+#portfolio {
+	@include clearfix;
+	background-color: $branco;
+	min-height: 475px;
+	position: relative;
+	width: 100%;
+	margin: 70px 0 0;
+
+	.projetos {
+			width: 400px;
+			height: auto;
+		img {
+			width: 100%;
+		}
+		p {
+			position: absolute;
+			bottom: 0;
+			color: $branco;
 		}
 	}
 }

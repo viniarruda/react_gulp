@@ -10423,6 +10423,7 @@ var React = __webpack_require__(10);
 var Header = __webpack_require__(117);
 var Sobre = __webpack_require__(119);
 var GitHub = __webpack_require__(115);
+var Habilidades = __webpack_require__(219);
 var Portfolio = __webpack_require__(118);
 var Depoimentos = __webpack_require__(113);
 var Contato = __webpack_require__(112);
@@ -10456,6 +10457,7 @@ var Container = React.createClass({
 				user: this.state.user,
 				repos: this.state.repos
 			}),
+			React.createElement(Habilidades, null),
 			React.createElement(Portfolio, null),
 			React.createElement(Depoimentos, null),
 			React.createElement(Contato, null),
@@ -11753,6 +11755,15 @@ var Header = React.createClass({
 						null,
 						React.createElement(
 							"a",
+							{ href: "#habilidades" },
+							"Habilidades"
+						)
+					),
+					React.createElement(
+						"li",
+						null,
+						React.createElement(
+							"a",
 							{ href: "#portfolio" },
 							"Portfolio"
 						)
@@ -11823,6 +11834,15 @@ var Header = React.createClass({
 												"a",
 												{ href: "#sobre" },
 												"Sobre"
+											)
+										),
+										React.createElement(
+											"li",
+											null,
+											React.createElement(
+												"a",
+												{ href: "#habilidades" },
+												"Habilidades"
 											)
 										),
 										React.createElement(
@@ -11937,7 +11957,105 @@ var Portfolio = React.createClass({
 	displayName: "Portfolio",
 
 	render: function () {
-		return React.createElement("section", { id: "portfolio" });
+		return React.createElement(
+			"section",
+			{ id: "portfolio" },
+			React.createElement(
+				"div",
+				{ className: "container" },
+				React.createElement(
+					"div",
+					{ className: "row" },
+					React.createElement(
+						"div",
+						{ className: "col-sm-12" },
+						React.createElement(
+							"div",
+							{ className: "titulo-contato" },
+							React.createElement(
+								"h2",
+								null,
+								"Portf\xF3lio"
+							),
+							React.createElement(
+								"div",
+								{ className: "divider" },
+								React.createElement("i", { className: "fa fa-picture-o" })
+							),
+							React.createElement(
+								"p",
+								null,
+								"Esses s\xE3o os projetos do quais fiz parte"
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "projetos" },
+								React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "" }),
+								React.createElement(
+									"p",
+									null,
+									"Quatro Rodas"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "projetos" },
+								React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "" }),
+								React.createElement("p", null)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "projetos" },
+								React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "" }),
+								React.createElement("p", null)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "projetos" },
+								React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "" }),
+								React.createElement("p", null)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "projetos" },
+								React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "" }),
+								React.createElement("p", null)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "projetos" },
+								React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "" }),
+								React.createElement("p", null)
+							)
+						)
+					)
+				)
+			)
+		);
 	}
 });
 
@@ -12076,13 +12194,7 @@ var Sobre = React.createClass({
 									React.createElement(
 										'p',
 										null,
-										'Me chamo Vin\xEDcius Arruda de Souza e tenho 20 anos, estou cursando o 4\xBA ano de Sistemas de Informa\xE7\xE3o na FIAP. Trabalho com Web a cerca de 2 anos e meio e sempre estou em busca de melhores pr\xE1ticas e conhecimentos. Meu conhecimento em Web se baseia em Front-End como pode ver ',
-										React.createElement(
-											'a',
-											{ href: '#habilidades' },
-											'clicando aqui'
-										),
-										'. J\xE1 participei de diversos projetos onde utilizavam diferentes tipos de tecnologias, voc\xEA pode saber um pouco mais sobre eles olhando em meu portf\xF3lio.'
+										'Me chamo Vin\xEDcius Arruda de Souza e tenho 20 anos, estou cursando o 4\xBA ano de Sistemas de Informa\xE7\xE3o na FIAP. Trabalho com Web a cerca de 2 anos e meio e sempre estou em busca de melhores pr\xE1ticas e conhecimentos. J\xE1 participei de diversos projetos onde utilizavam diferentes tipos de tecnologias, voc\xEA pode saber um pouco mais sobre eles olhando em meu portf\xF3lio.'
 									)
 								)
 							)
@@ -24387,6 +24499,182 @@ var ReactDOM = __webpack_require__(93);
 var Container = __webpack_require__(92);
 
 ReactDOM.render(React.createElement(Container, null), document.getElementById('app'));
+
+/***/ }),
+/* 219 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var React = __webpack_require__(10);
+
+var Habilidades = React.createClass({
+	displayName: "Habilidades",
+
+	render: function () {
+		return React.createElement(
+			"section",
+			{ id: "habilidades" },
+			React.createElement(
+				"div",
+				{ className: "container" },
+				React.createElement(
+					"div",
+					{ className: "row" },
+					React.createElement(
+						"div",
+						{ className: "col-sm-12" },
+						React.createElement(
+							"div",
+							{ className: "titulo-contato" },
+							React.createElement(
+								"h2",
+								null,
+								"Habilidades"
+							),
+							React.createElement(
+								"div",
+								{ className: "divider" },
+								React.createElement("i", { className: "fa fa-code" })
+							),
+							React.createElement(
+								"p",
+								null,
+								"Essas s\xE3o as minhas habilidades"
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-html5" }),
+								React.createElement(
+									"p",
+									null,
+									"Html"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-css3" }),
+								React.createElement(
+									"p",
+									null,
+									"Css / Sass"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-code" }),
+								React.createElement(
+									"p",
+									null,
+									"Javascript"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-asterisk" }),
+								React.createElement(
+									"p",
+									null,
+									"ReactJs"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-bolt" }),
+								React.createElement(
+									"p",
+									null,
+									"Gulp / Grunt"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-wordpress" }),
+								React.createElement(
+									"p",
+									null,
+									"Wordpress"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-mobile" }),
+								React.createElement(
+									"p",
+									null,
+									"Responsivo"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-check" }),
+								React.createElement(
+									"p",
+									null,
+									"jQuery"
+								)
+							)
+						),
+						React.createElement(
+							"div",
+							{ className: "col-md-4 col-sm-6" },
+							React.createElement(
+								"div",
+								{ className: "skill" },
+								React.createElement("i", { className: "fa fa-file" }),
+								React.createElement(
+									"p",
+									null,
+									"AngularJS"
+								)
+							)
+						)
+					)
+				)
+			)
+		);
+	}
+});
+
+module.exports = Habilidades;
 
 /***/ })
 /******/ ]);

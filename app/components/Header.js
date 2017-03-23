@@ -7,6 +7,7 @@ var Header = React.createClass({
 					<ul>
 						<li><a href="index.html">Início</a></li>
 						<li><a href="#sobre">Sobre</a></li>
+						<li><a href="#habilidades">Habilidades</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#depoimentos">Depoimentos</a></li>
 						<li><a href="#contato">Contato</a></li>
@@ -26,6 +27,7 @@ var Header = React.createClass({
 										<ul>
 											<li><a href="#">Home</a></li>
 											<li><a href="#sobre">Sobre</a></li>
+											<li><a href="#habilidades">Habilidades</a></li>
 											<li><a href="#portfolio">Portfólio</a></li>
 											<li><a href="#depoimentos">Depoimentos</a></li>
 											<li><a href="#contato">Contato</a></li>
