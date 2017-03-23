@@ -8,6 +8,12 @@
 	- Sass
 	- Gulp
 	- Live-server
+	- jQuery
+	- font-awesome
+	- Webpack
+
+
+	Instalação -> npm install e bower install = Já trará todas as dependências
 
 # Requisitos
 	- Webpack ( webpack -w )
@@ -42,4 +48,4 @@ Gulp -> Sass
 
 
 #Obs:
-Deixar o node_modules no .gitignore
+Deixar o node_modules e bower_components no .gitignore
