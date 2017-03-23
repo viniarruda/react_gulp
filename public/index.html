@@ -35,6 +35,14 @@
 				$('html, body').animate({scrollTop: 0},800);
 			});
 
+			$(window).on('scroll', function () {
+	            if ($(window).scrollTop() > 100) {
+	                $('.menu').addClass('navigation-background');
+	            } else {
+	                $('.menu').removeClass('navigation-background');
+	            }
+        	});
+
 		});
 	</script>
 </body>
