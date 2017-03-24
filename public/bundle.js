@@ -11516,7 +11516,7 @@ var Footer = React.createClass({
 				React.createElement(
 					"div",
 					{ className: "logo-footer" },
-					React.createElement("img", { src: "../app/src/imagens/law.png", alt: "Logo Topo" })
+					React.createElement("img", { src: "../app/src/imagens/logo_bottom.png", alt: "Logo Topo" })
 				),
 				React.createElement(
 					"div",
@@ -11982,11 +11982,11 @@ var Header = React.createClass({
 								{ className: "menu" },
 								React.createElement(
 									"div",
-									{ className: "logo wow slideInLeft", "data-wow-duration": "0.5s", "data-wow-delay": "1s" },
+									{ className: "logo wow slideInLeft", "data-wow-duration": "0.5s", "data-wow-delay": "0.3s" },
 									React.createElement(
 										"a",
 										{ href: "index.html" },
-										React.createElement("img", { src: "../app/src/imagens/law.png", alt: "Logo Topo" })
+										React.createElement("img", { src: "../app/src/imagens/logo.png", alt: "Logo Topo" })
 									)
 								),
 								React.createElement(

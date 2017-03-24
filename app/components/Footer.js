@@ -6,7 +6,7 @@ var Footer = React.createClass({
 			<footer>
 				<div className="container">
 					<div className="logo-footer">
-						<img src="../app/src/imagens/law.png" alt="Logo Topo" />
+						<img src="../app/src/imagens/logo_bottom.png" alt="Logo Topo" />
 					</div>
 					<div className="links-footer">
 						<ul>

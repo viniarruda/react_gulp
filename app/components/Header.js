@@ -18,9 +18,9 @@ var Header = React.createClass({
 						<div className="container">
 							<div className="row">
 								<div className="menu">
-									<div className="logo wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="1s">
+									<div className="logo wow slideInLeft" data-wow-duration="0.5s" data-wow-delay="0.3s">
 										<a href="index.html">
-											<img src="../app/src/imagens/law.png" alt="Logo Topo" />
+											<img src="../app/src/imagens/logo.png" alt="Logo Topo" />
 										</a>
 									</div>
 									<div className="links">
