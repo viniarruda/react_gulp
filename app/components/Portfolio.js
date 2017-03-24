@@ -17,37 +17,37 @@ var Portfolio = React.createClass({
 		                    <div className="col-md-4 col-sm-6">
 		                    	<div className="projetos">
 		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Quatro Rodas</p>
+		                    		<p>Quatro Rodas - Wordpress</p>
 		                    	</div>
 		                    </div>
 		                    <div className="col-md-4 col-sm-6">
 		                    	<div className="projetos">
 		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p></p>
+		                    		<p>Mundo Estranho - Wordpress</p>
 		                    	</div>
 		                    </div>
 		                    <div className="col-md-4 col-sm-6">
 		                    	<div className="projetos">
 		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p></p>
+		                    		<p>Vip - Wordpress</p>
 		                    	</div>
 		                    </div>
 		                    <div className="col-md-4 col-sm-6">
 		                    	<div className="projetos">
 		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p></p>
+		                    		<p>Viagem e Turismo - Wordpress</p>
 		                    	</div>
 		                    </div>
 		                    <div className="col-md-4 col-sm-6">
 		                    	<div className="projetos">
 		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p></p>
+		                    		<p>Quatro Rodas - Ruby on Rails</p>
 		                    	</div>
 		                    </div>
 		                    <div className="col-md-4 col-sm-6">
 		                    	<div className="projetos">
 		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p></p>
+		                    		<p>Blogs Superinteressante - Wordpress</p>
 		                    	</div>
 		                    </div>
 						</div>

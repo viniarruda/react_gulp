@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../app/src/css/style.css">
 	<link rel="stylesheet" href="../app/src/css/plugins.css">
+	<link rel="stylesheet" href="../node_modules/magnific-popup/src/css/main.scss">
 	<title>Treinando com ReactJs</title>
 </head>
 <body>
@@ -15,6 +16,7 @@
 	</a>
 	<script src="bundle.js"></script>
 	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="../node_modules/magnific-popup/dist/jquery.magnific-popup.js"></script>
 	<script>
 		$(function(){
 			$('.toggle').click(function(){
@@ -23,6 +25,31 @@
 				$(this).toggleClass('ativo');
 			});
 			
+			$('.inicio').click(function(){
+				$('.menu-responsivo').removeClass('ativo');
+				$('.toggle').removeClass('ativo');
+			});
+			$('.sobre').click(function(){
+				$('.menu-responsivo').removeClass('ativo');
+				$('.toggle').removeClass('ativo');
+			});
+			$('.habilidades').click(function(){
+				$('.menu-responsivo').removeClass('ativo');
+				$('.toggle').removeClass('ativo');
+			});
+			$('.portfolio').click(function(){
+				$('.menu-responsivo').removeClass('ativo');
+				$('.toggle').removeClass('ativo');
+			});
+			$('.depoimentos').click(function(){
+				$('.menu-responsivo').removeClass('ativo');
+				$('.toggle').removeClass('ativo');
+			});
+			$('.contato').click(function(){
+				$('.menu-responsivo').removeClass('ativo');
+				$('.toggle').removeClass('ativo');
+			});
+
 			$(window).scroll(function(){
 				if($(this).scrollTop() >= 500) {
 					$('.scroll-to-top').addClass('ativo');
@@ -46,6 +73,12 @@
 	                $('.menu').removeClass('navigation-background');
 	            }
         	});
+
+        	$('.projetos').magnificPopup({
+			  delegate: 'a',
+			  type: 'image'
+			  // other options
+			});
 
 		});
 	</script>
