@@ -50,6 +50,7 @@ var Sobre = React.createClass({
 									</div>
 						           	<div className="resumo">
 					            		<p>Me chamo Vinícius Arruda de Souza e tenho 20 anos, estou cursando o 4º ano de Sistemas de Informação na FIAP. Trabalho com Web a cerca de 2 anos e meio e sempre estou em busca de melhores práticas e conhecimentos. Já participei de diversos projetos onde utilizavam diferentes tipos de tecnologias, você pode saber um pouco mais sobre eles olhando em meu portfólio.</p>
+					            		<p>Meu currículo você pode ver <a href="curriculo_vinicius.pdf">clicando aqui</a>.</p>
 					            	</div>
 						        </div>
 				            </div>

@@ -15,7 +15,7 @@ var GitHubRepos = React.createClass({
 				<div key={key} className="thumbnail">
 		          <div className="caption">
 		            <h3>{repo.name}
-		              <span className="badge">{repo.stargazers_count}<i className="fa fa-star"></i></span>
+		              <span className="badge">{repo.stargazers_count} <i className="fa fa-star"></i></span>
 		            </h3>
 		            <p>{repo.description}</p>
 		            <p>

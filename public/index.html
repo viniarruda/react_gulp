@@ -6,81 +6,18 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../app/src/css/style.css">
 	<link rel="stylesheet" href="../app/src/css/plugins.css">
-	<link rel="stylesheet" href="../node_modules/magnific-popup/src/css/main.scss">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css">
 	<title>Treinando com ReactJs</title>
 </head>
 <body>
 	<div id="app"></div>
+	<div id="preloader"></div>
 	<a href="#" class="scroll-to-top">
 		<i class="fa fa-arrow-circle-up"></i>
 	</a>
 	<script src="bundle.js"></script>
 	<script src="../bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="../node_modules/magnific-popup/dist/jquery.magnific-popup.js"></script>
-	<script>
-		$(function(){
-			$('.toggle').click(function(){
-				$('.layout').toggleClass('ativo');
-				$('.menu-responsivo').toggleClass('ativo');
-				$(this).toggleClass('ativo');
-			});
-			
-			$('.inicio').click(function(){
-				$('.menu-responsivo').removeClass('ativo');
-				$('.toggle').removeClass('ativo');
-			});
-			$('.sobre').click(function(){
-				$('.menu-responsivo').removeClass('ativo');
-				$('.toggle').removeClass('ativo');
-			});
-			$('.habilidades').click(function(){
-				$('.menu-responsivo').removeClass('ativo');
-				$('.toggle').removeClass('ativo');
-			});
-			$('.portfolio').click(function(){
-				$('.menu-responsivo').removeClass('ativo');
-				$('.toggle').removeClass('ativo');
-			});
-			$('.depoimentos').click(function(){
-				$('.menu-responsivo').removeClass('ativo');
-				$('.toggle').removeClass('ativo');
-			});
-			$('.contato').click(function(){
-				$('.menu-responsivo').removeClass('ativo');
-				$('.toggle').removeClass('ativo');
-			});
-
-			$(window).scroll(function(){
-				if($(this).scrollTop() >= 500) {
-					$('.scroll-to-top').addClass('ativo');
-				} else {
-					$('.scroll-to-top').removeClass('ativo');
-				}
-			});
-
-			$('.github-btn').click(function(){
-				$('html, body, #github').animate({scrollTop: 1200},800);
-			});
-
-			$('.scroll-to-top').click(function(){
-				$('html, body').animate({scrollTop: 0},800);
-			});
-
-			$(window).on('scroll', function () {
-	            if ($(window).scrollTop() > 100) {
-	                $('.menu').addClass('navigation-background');
-	            } else {
-	                $('.menu').removeClass('navigation-background');
-	            }
-        	});
-
-        	$('.projetos').magnificPopup({
-			  delegate: 'a',
-			  type: 'image'
-			  // other options
-			});
-
-		});
-	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+	<script src="../app/src/js/scripts.js"></script>
 </body>
 </html>

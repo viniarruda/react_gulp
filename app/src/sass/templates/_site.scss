@@ -1,3 +1,14 @@
+#preloader { 
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	overflow: visible;
+	background: #333 url('http://files.mimoymima.com/images/loading.gif') no-repeat center center;
+}
+
 header {
 	@include clearfix;
 	background: url('../imagens/code-html.png') #000 no-repeat top center;
@@ -369,6 +380,7 @@ section {
 	}
 	.margin-git {
 		margin: 80px 0;
+		text-align: center;
 	}
 	.margin-bottom {
 		margin: 0 0 20px;
@@ -394,16 +406,71 @@ section {
 	}
 }
 #portfolio {
-	background-color: $branco;
+	background-color: #f1f1f1;
 	min-height: 475px;
+	padding: 30px 0 70px;
 	margin: 70px 0 0;
-
+	.mix {
+		padding: 0;
+	}
+	.portfolio {
+	    padding: 30px 10px;
+	    list-style: none;
+	    margin-left: 8px;
+	    text-align: center;
+	    background-color: #4c9cef;
+	    li {
+	    	display: inline-block;
+		    padding: 8px 12px;
+		    margin: 2px 8px;
+		    text-transform: capitalize;
+		    font-size: 14px;
+		    font-weight: 400;
+		    color: #ffffff;
+		    border: none;
+		    cursor: pointer;
+		    font-size: 13px;
+		    &:hover {
+		    	color: #000;
+		    	border: none;
+		    }
+		    &.active {
+		    	color: #ffffff;
+			    background-color: #FFA500;
+			    padding: 5px 20px;
+			    border-radius: 20px;
+			    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+		    }
+	    }
+	}
 	.projetos {
-			width: 400px;
-			height: auto;
-		img {
-			width: 100%;
-		}
+			position: relative;
+			@include transition(.3s);
+			a {
+				&:before {
+					content: "\f00e";
+					font-family: "FontAwesome";
+				    text-align: center;
+				    color: #ffffff;
+				    position: absolute;
+				    font-size: 25px;
+				    top: 2%;
+				    opacity: 0;
+				    left: 0%;
+				    right: 0%;
+				    background-color: $azul-claro;
+				    width: 70px;
+				    height: 70px;
+				    border-radius: 50%;
+				    line-height: 70px;
+				    margin: 0 auto;
+				    -webkit-transition: all 400ms ease-in-out;
+				    transition: all 400ms ease-in-out;
+				}		
+			    img {
+					width: 100%;
+				}
+			}
 		p {
 			position: absolute;
 			bottom: 0;
@@ -414,9 +481,40 @@ section {
 			width: 100%;
 		}
 	}
+	.web {
+		transition: 0.5s ease-out;
+		-webkit-transition: 0.5s ease-out;
+	}
+	.no-display {
+		display: none;
+	}
+	.projetos:hover a:before {
+		top: 40%;
+		box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+		-webkit-transition: all 400ms ease-in-out;
+		      transition: all 400ms ease-in-out;
+	}
+	.projetos a:hover:before{
+		opacity: 1;
+	}
+	.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+		margin-top: 50px;
+	    font-size: 40px;
+	    background-color: $azul-claro;
+	    width: 50px;
+	    right: 10px;
+	    height: 50px;
+	    border-radius: 50%;
+	    padding-right: 13px;
+	}
+
+	.mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+	    cursor: inherit;
+	}
 }
 
 #depoimentos {
+	display: none;
 	background: url('../imagens/catcher.jpg') #000 no-repeat top center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -681,6 +779,15 @@ footer {
 			}
 		}
 	}
+	#github {
+		.thumbnail {
+			.caption {
+				.badge {
+					display: none;
+				}
+			}
+		}
+	}
 	#projetos {
 		img {
 			width: 100%;
@@ -689,6 +796,13 @@ footer {
 	#contato {
 		.contato-detalhado {
 			left: 38%;
+			top: -1%;
 		}
+	}
+	.scroll-to-top {
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		right: 50px;
 	}
 }

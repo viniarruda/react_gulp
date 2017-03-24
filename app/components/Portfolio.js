@@ -14,42 +14,45 @@ var Portfolio = React.createClass({
 								 </div>
 		                        <p>Esses são os projetos do quais fiz parte</p>
 		                    </div>
-		                    <div className="col-md-4 col-sm-6">
-		                    	<div className="projetos">
-		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Quatro Rodas - Wordpress</p>
-		                    	</div>
+		                    <div className="col-md-2">
+		                    	<ul className="portfolio">
+		                    		<li className="filter active" id="all">Todos</li>
+		                    		<li className="filter" id="web">Web</li>
+		                    		<li className="filter" id="design">Design</li>
+		                    	</ul>
 		                    </div>
-		                    <div className="col-md-4 col-sm-6">
-		                    	<div className="projetos">
-		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Mundo Estranho - Wordpress</p>
-		                    	</div>
-		                    </div>
-		                    <div className="col-md-4 col-sm-6">
-		                    	<div className="projetos">
-		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Vip - Wordpress</p>
-		                    	</div>
-		                    </div>
-		                    <div className="col-md-4 col-sm-6">
-		                    	<div className="projetos">
-		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Viagem e Turismo - Wordpress</p>
-		                    	</div>
-		                    </div>
-		                    <div className="col-md-4 col-sm-6">
-		                    	<div className="projetos">
-		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Quatro Rodas - Ruby on Rails</p>
-		                    	</div>
-		                    </div>
-		                    <div className="col-md-4 col-sm-6">
-		                    	<div className="projetos">
-		                    		<img src="../app/src/imagens/catcher.jpg" alt="" />
-		                    		<p>Blogs Superinteressante - Wordpress</p>
-		                    	</div>
-		                    </div>
+		                    <div className="col-md-10">
+			                    <div className="col-md-4 col-sm-6 col-xs-12 mix web">
+			                    	<div className="projetos">
+			                    		<a href="../app/src/imagens/catcher.jpg" title="Viagem e Turismo - Wordpress" className="portfolio-popup"><img src="../app/src/imagens/catcher.jpg" alt="Catcher"/></a>
+			                    	</div>
+			                    </div>
+			                    <div className="col-md-4 col-sm-6 col-xs-12 mix design">
+			                    	<div className="projetos">
+			                    		<a href="../app/src/imagens/catcher.jpg" title="Viagem e Turismo - Wordpress" className="portfolio-popup"><img src="../app/src/imagens/catcher.jpg" alt="Catcher"/></a>
+			                    	</div>
+			                    </div>
+			                    <div className="col-md-4 col-sm-6 col-xs-12 mix web">
+			                    	<div className="projetos">
+			                    		<a href="../app/src/imagens/catcher.jpg" title="Viagem e Turismo - Wordpress" className="portfolio-popup"><img src="../app/src/imagens/catcher.jpg" alt="Catcher"/></a>
+			                    	</div>
+			                    </div>
+			                    <div className="col-md-4 col-sm-6 col-xs-12 mix design">
+			                    	<div className="projetos">
+			                    		<a href="../app/src/imagens/catcher.jpg" title="Viagem e Turismo - Wordpress" className="portfolio-popup"><img src="../app/src/imagens/catcher.jpg" alt="Catcher"/></a>
+			                    	</div>
+			                    </div>
+			                    <div className="col-md-4 col-sm-6 col-xs-12 mix web">
+			                    	<div className="projetos">
+			                    		<a href="../app/src/imagens/catcher.jpg" title="Viagem e Turismo - Wordpress" className="portfolio-popup"><img src="../app/src/imagens/catcher.jpg" alt="Catcher"/></a>
+			                    	</div>
+			                    </div>
+			                    <div className="col-md-4 col-sm-6 col-xs-12 mix web">
+			                    	<div className="projetos">
+			                    		<a href="../app/src/imagens/catcher.jpg" title="Viagem e Turismo - Wordpress" className="portfolio-popup"><img src="../app/src/imagens/catcher.jpg" alt="Catcher"/></a>
+			                    	</div>
+			                    </div>
+			                </div>
 						</div>
 					</div>
 				</div>
