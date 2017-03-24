@@ -325,7 +325,7 @@ section {
 	}
 }
 #habilidades {
-	background-color: #F9F9F9;
+	background-color: #f1f1f1;
 	min-height: 475px;
 	margin: 70px 0 0;
 
@@ -420,7 +420,7 @@ section {
 	}
 }
 #portfolio {
-	background-color: #f1f1f1;
+	background-color: $branco;
 	min-height: 475px;
 	padding: 30px 0 70px;
 	margin: 70px 0 0;
@@ -546,7 +546,9 @@ section {
 }
 
 #contato {
-	margin: 70px 0 70px 0;
+	background-color: #f1f1f1;
+	margin: 70px 0 0 0;
+	padding: 0 0 70px;
 
 	.contato-detalhado {
 		position: absolute;
@@ -714,40 +716,43 @@ footer {
     	box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
     }
 }
+#contato {
+	background-color: #f1f1f1;
+}
 
 .titulo-contato {
-		text-align: center;
-		margin-bottom: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.divider {
+	position: relative;
+	width: 125px;
+	margin: 20px auto 20px;
+	overflow: hidden;
+	text-align: center;
+	&:before {
+		left: 0;
+		content: ' ';
+		width: 43px;
+		position: absolute;
+		border-bottom: dotted 2px #b2b2b2;
+		top: 50%;
+		margin-top: -4px;
 	}
-	.divider {
-		position: relative;
-		width: 125px;
-		margin: 20px auto 20px;
-		overflow: hidden;
-		text-align: center;
-		&:before {
-			left: 0;
-			content: ' ';
-			width: 43px;
-			position: absolute;
-			border-bottom: dotted 2px #b2b2b2;
-			top: 50%;
-			margin-top: -4px;
-		}
-		&:after {
-			right: 0;
-			content: ' ';
-			width: 43px;
-			position: absolute;
-			border-bottom: dotted 2px #b2b2b2;
-			top: 50%;
-			margin-top: -4px;
-		}
-		i {
-			color: $laranja;
-			font-size: 21px;
-		}
+	&:after {
+		right: 0;
+		content: ' ';
+		width: 43px;
+		position: absolute;
+		border-bottom: dotted 2px #b2b2b2;
+		top: 50%;
+		margin-top: -4px;
 	}
+	i {
+		color: $laranja;
+		font-size: 21px;
+	}
+}
 
 @media screen and (max-width: $tablet) {
 	header .links > nav {

@@ -11397,7 +11397,7 @@ var Contato = React.createClass({
 									React.createElement(
 										"div",
 										{ className: "form-group" },
-										React.createElement("input", { type: "text", id: "nome", required: true, className: "form-control", placeholder: "Seu e-mail" })
+										React.createElement("input", { type: "text", id: "email", required: true, className: "form-control", placeholder: "Seu e-mail" })
 									)
 								),
 								React.createElement(
@@ -11406,7 +11406,7 @@ var Contato = React.createClass({
 									React.createElement(
 										"div",
 										{ className: "form-group" },
-										React.createElement("input", { type: "text", id: "nome", required: true, className: "form-control", placeholder: "Seu assunto" })
+										React.createElement("input", { type: "text", id: "subject", required: true, className: "form-control", placeholder: "Seu assunto" })
 									)
 								),
 								React.createElement(
@@ -11415,7 +11415,7 @@ var Contato = React.createClass({
 									React.createElement(
 										"div",
 										{ className: "form-group" },
-										React.createElement("input", { type: "text", id: "nome", required: true, className: "form-control", placeholder: "De onde voc\xEA \xE9?" })
+										React.createElement("input", { type: "text", id: "cidade", required: true, className: "form-control", placeholder: "De onde voc\xEA \xE9?" })
 									)
 								),
 								React.createElement(

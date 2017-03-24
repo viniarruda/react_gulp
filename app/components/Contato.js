@@ -28,17 +28,17 @@ var Contato = React.createClass({
 										</div>
 									</div><div className="col-sm-6">
 										<div className="form-group">
-											<input type="text" id="nome" required className="form-control" placeholder="Seu e-mail" />
+											<input type="text" id="email" required className="form-control" placeholder="Seu e-mail" />
 										</div>
 									</div>
 									<div className="col-sm-6">
 										<div className="form-group">
-											<input type="text" id="nome" required className="form-control" placeholder="Seu assunto" />
+											<input type="text" id="subject" required className="form-control" placeholder="Seu assunto" />
 										</div>
 									</div>
 									<div className="col-sm-6">
 										<div className="form-group">
-											<input type="text" id="nome" required className="form-control" placeholder="De onde você é?" />
+											<input type="text" id="cidade" required className="form-control" placeholder="De onde você é?" />
 										</div>
 									</div>
 									<div className="col-sm-12">
