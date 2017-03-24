@@ -29,7 +29,7 @@ var Sobre = React.createClass({
 		                    </div>
 				            <div className="col-md-6">
 				            	<div className="avatar wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
-				            		<img src="../app/src/imagens/law.png" alt="Avatar Vinícius"/>
+				            		<img src="../app/src/imagens/vini.jpg" alt="Avatar Vinícius"/>
 				            	</div>
 				            	<div className="box-habilidades">
 				            		<a href="#habilidades">Habilidades</a>
@@ -40,9 +40,9 @@ var Sobre = React.createClass({
 				            		<div className="social">
 					            		<h3>Me encontre nas Redes Sociais</h3>
 							            <ul>
-											<li className="facebook"><a href="#" target="_blank"><i className="fa fa-facebook"></i></a></li>
-											<li className="linkedin"><a href="#" target="_blank"><i className="fa fa-linkedin"></i></a></li>
-											<li className="google-plus"><a href="#" target="_blank"><i className="fa fa-google"></i></a></li>
+											<li className="facebook"><a href="https://www.facebook.com/vinicius.arruda.90" target="_blank"><i className="fa fa-facebook"></i></a></li>
+											<li className="linkedin"><a href="https://www.linkedin.com/in/vin%C3%ADcius-arruda-a736b9100" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+											<li className="google-plus"><a href="https://plus.google.com/u/0/109758076069727824197" target="_blank"><i className="fa fa-google"></i></a></li>
 										</ul>
 						            	<form onSubmit={this.handleSubmit}>
 							            	<button type="submit" className="btn btn-primary github-btn github"><i className="fa fa-github"></i></button>

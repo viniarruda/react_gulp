@@ -25,7 +25,7 @@ header {
 		height: 45px;
 		position: absolute;
 		bottom: 0;
-		@include gradient(90deg, $verde, $azul);
+		@include gradient(90deg, rgba(0,140,201,0.9), rgba(0,158,165,0.9));
 	}
 	.menu {
 		position: fixed;
@@ -188,7 +188,7 @@ header {
 	top: 0;
 	width: 150px;
 	height: auto;
-	@include gradient(0deg, $verde, $azul-claro);
+	@include gradient(0deg, rgba(0,158,165,0.9), $azul-claro);
 	&.ativo{
 		left: 0;
 		width: 100%;
@@ -327,7 +327,7 @@ section {
 #habilidades {
 	background-color: #f1f1f1;
 	min-height: 475px;
-	margin: 70px 0 0;
+	padding: 70px 0 70px;
 
 	.skill {
 		background-color: $branco;
@@ -784,6 +784,12 @@ footer {
 		.menu {
 			background-color: $azul-claro;
 			height: 80px;
+			a {
+				img {
+					margin: -16px -55px 0;
+					width: 150px;
+				}
+			}
 		}
 	}
 	.menu-responsivo {
@@ -823,5 +829,16 @@ footer {
 		height: 40px;
 		line-height: 40px;
 		right: 50px;
+	}
+	footer {
+		.logo-footer {
+			width: 100%;
+			img {
+				width: 150px;
+			}
+		}
+		.links-footer {
+			width: 100%;
+		}
 	}
 }

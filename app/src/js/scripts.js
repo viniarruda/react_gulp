@@ -33,23 +33,23 @@ $(function(){
 	$('#all').click(function(){
 		$(this).addClass('active');
 		$('#web').removeClass('active');
-		$('#design').removeClass('active');
-		$('.design').removeClass('no-display');
+		$('#mobile').removeClass('active');
+		$('.mobile').removeClass('no-display');
 		$('.web').removeClass('no-display');
 	});
 	$('#web').click(function(){
 		$(this).addClass('active');
 		$('#all').removeClass('active');
-		$('#design').removeClass('active');
-		$('.design').addClass('no-display');
+		$('#mobile').removeClass('active');
+		$('.mobile').addClass('no-display');
 		$('.web').removeClass('no-display');
 	});
-	$('#design').click(function(){
+	$('#mobile').click(function(){
 		$(this).addClass('active');
 		$('#all').removeClass('active');
 		$('#web').removeClass('active');
 		$('.web').addClass('no-display');
-		$('.design').removeClass('no-display');
+		$('.mobile').removeClass('no-display');
 	});
 	//Adicionando classe ativo para o scroll.
 

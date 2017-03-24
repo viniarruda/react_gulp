@@ -10,9 +10,9 @@ var Footer = React.createClass({
 					</div>
 					<div className="links-footer">
 						<ul>
-							<li><a href="#" className="facebook"><i className="fa fa-facebook"></i></a></li>
-							<li><a href="#" className="linkedin"><i className="fa fa-linkedin"></i></a></li>
-							<li><a href="#" className="google-plus"><i className="fa fa-google"></i></a></li>
+							<li><a href="https://www.facebook.com/vinicius.arruda.90"  target="_blank" className="facebook"><i className="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/vin%C3%ADcius-arruda-a736b9100"  target="_blank" className="linkedin"><i className="fa fa-linkedin"></i></a></li>
+							<li><a href="https://plus.google.com/u/0/109758076069727824197"  target="_blank" className="google-plus"><i className="fa fa-google"></i></a></li>
 							<li><a href="#" className="github"><i className="fa fa-github"></i></a></li>
 						</ul>
 					</div>

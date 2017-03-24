@@ -9,7 +9,6 @@ var Header = React.createClass({
 						<li><a href="#sobre" className="sobre">Sobre</a></li>
 						<li><a href="#habilidades" className="habilidades">Habilidades</a></li>
 						<li><a href="#portfolio" className="portfolio">Portfolio</a></li>
-						<li><a href="#depoimentos" className="depoimentos">Depoimentos</a></li>
 						<li><a href="#contato" className="contato">Contato</a></li>
 					</ul>
 				</nav>
@@ -30,7 +29,6 @@ var Header = React.createClass({
 												<li><a href="#sobre">Sobre</a></li>
 												<li><a href="#habilidades">Habilidades</a></li>
 												<li><a href="#portfolio">Portfólio</a></li>
-												<li><a href="#depoimentos">Depoimentos</a></li>
 												<li><a href="#contato">Contato</a></li>
 											</ul>
 										</nav>
@@ -42,9 +40,9 @@ var Header = React.createClass({
 										</a>
 
 										<ul className="social">
-											<li><a href="#"><i className="fa fa-facebook"></i></a></li>
-											<li><a href="#"><i className="fa fa-linkedin"></i></a></li>
-											<li><a href="#"><i className="fa fa-github"></i></a></li>
+											<li><a href="https://www.facebook.com/vinicius.arruda.90" target="_blank"><i className="fa fa-facebook"></i></a></li>
+											<li><a href="https://www.linkedin.com/in/vin%C3%ADcius-arruda-a736b9100" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+											<li><a href="github.com/viniarruda" target="_blank"><i className="fa fa-github"></i></a></li>
 										</ul>
 									</div>
 								</div>

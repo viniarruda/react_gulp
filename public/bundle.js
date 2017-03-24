@@ -11529,7 +11529,7 @@ var Footer = React.createClass({
 							null,
 							React.createElement(
 								"a",
-								{ href: "#", className: "facebook" },
+								{ href: "https://www.facebook.com/vinicius.arruda.90", target: "_blank", className: "facebook" },
 								React.createElement("i", { className: "fa fa-facebook" })
 							)
 						),
@@ -11538,7 +11538,7 @@ var Footer = React.createClass({
 							null,
 							React.createElement(
 								"a",
-								{ href: "#", className: "linkedin" },
+								{ href: "https://www.linkedin.com/in/vin%C3%ADcius-arruda-a736b9100", target: "_blank", className: "linkedin" },
 								React.createElement("i", { className: "fa fa-linkedin" })
 							)
 						),
@@ -11547,7 +11547,7 @@ var Footer = React.createClass({
 							null,
 							React.createElement(
 								"a",
-								{ href: "#", className: "google-plus" },
+								{ href: "https://plus.google.com/u/0/109758076069727824197", target: "_blank", className: "google-plus" },
 								React.createElement("i", { className: "fa fa-google" })
 							)
 						),
@@ -11950,15 +11950,6 @@ var Header = React.createClass({
 						null,
 						React.createElement(
 							"a",
-							{ href: "#depoimentos", className: "depoimentos" },
-							"Depoimentos"
-						)
-					),
-					React.createElement(
-						"li",
-						null,
-						React.createElement(
-							"a",
 							{ href: "#contato", className: "contato" },
 							"Contato"
 						)
@@ -12039,15 +12030,6 @@ var Header = React.createClass({
 												null,
 												React.createElement(
 													"a",
-													{ href: "#depoimentos" },
-													"Depoimentos"
-												)
-											),
-											React.createElement(
-												"li",
-												null,
-												React.createElement(
-													"a",
 													{ href: "#contato" },
 													"Contato"
 												)
@@ -12069,7 +12051,7 @@ var Header = React.createClass({
 											null,
 											React.createElement(
 												"a",
-												{ href: "#" },
+												{ href: "https://www.facebook.com/vinicius.arruda.90", target: "_blank" },
 												React.createElement("i", { className: "fa fa-facebook" })
 											)
 										),
@@ -12078,7 +12060,7 @@ var Header = React.createClass({
 											null,
 											React.createElement(
 												"a",
-												{ href: "#" },
+												{ href: "https://www.linkedin.com/in/vin%C3%ADcius-arruda-a736b9100", target: "_blank" },
 												React.createElement("i", { className: "fa fa-linkedin" })
 											)
 										),
@@ -12087,7 +12069,7 @@ var Header = React.createClass({
 											null,
 											React.createElement(
 												"a",
-												{ href: "#" },
+												{ href: "github.com/viniarruda", target: "_blank" },
 												React.createElement("i", { className: "fa fa-github" })
 											)
 										)
@@ -12187,8 +12169,8 @@ var Portfolio = React.createClass({
 								),
 								React.createElement(
 									"li",
-									{ className: "filter", id: "design" },
-									"Design"
+									{ className: "filter", id: "mobile" },
+									"Mobile"
 								)
 							)
 						),
@@ -12203,21 +12185,8 @@ var Portfolio = React.createClass({
 									{ className: "projetos" },
 									React.createElement(
 										"a",
-										{ href: "../app/src/imagens/catcher.jpg", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
-										React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "Catcher" })
-									)
-								)
-							),
-							React.createElement(
-								"div",
-								{ className: "col-md-4 col-sm-6 col-xs-12 mix design" },
-								React.createElement(
-									"div",
-									{ className: "projetos" },
-									React.createElement(
-										"a",
-										{ href: "../app/src/imagens/catcher.jpg", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
-										React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "Catcher" })
+										{ href: "../app/src/imagens/portfolio/vt.png", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/vt.png", alt: "Viagem e Turismo" })
 									)
 								)
 							),
@@ -12229,21 +12198,8 @@ var Portfolio = React.createClass({
 									{ className: "projetos" },
 									React.createElement(
 										"a",
-										{ href: "../app/src/imagens/catcher.jpg", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
-										React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "Catcher" })
-									)
-								)
-							),
-							React.createElement(
-								"div",
-								{ className: "col-md-4 col-sm-6 col-xs-12 mix design" },
-								React.createElement(
-									"div",
-									{ className: "projetos" },
-									React.createElement(
-										"a",
-										{ href: "../app/src/imagens/catcher.jpg", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
-										React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "Catcher" })
+										{ href: "../app/src/imagens/portfolio/me.png", title: "Mundo Estranho - Wordpress", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/me.png", alt: "Mundo Estranho" })
 									)
 								)
 							),
@@ -12255,8 +12211,8 @@ var Portfolio = React.createClass({
 									{ className: "projetos" },
 									React.createElement(
 										"a",
-										{ href: "../app/src/imagens/catcher.jpg", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
-										React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "Catcher" })
+										{ href: "../app/src/imagens/portfolio/vip.png", title: "Vip - Wordpress", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/vip.png", alt: "Vip" })
 									)
 								)
 							),
@@ -12268,8 +12224,60 @@ var Portfolio = React.createClass({
 									{ className: "projetos" },
 									React.createElement(
 										"a",
-										{ href: "../app/src/imagens/catcher.jpg", title: "Viagem e Turismo - Wordpress", className: "portfolio-popup" },
-										React.createElement("img", { src: "../app/src/imagens/catcher.jpg", alt: "Catcher" })
+										{ href: "../app/src/imagens/portfolio/ge.png", title: "Guia do Estudante- Wordpress", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/ge.png", alt: "Guia do Estudante" })
+									)
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "col-md-4 col-sm-6 col-xs-12 mix mobile" },
+								React.createElement(
+									"div",
+									{ className: "projetos" },
+									React.createElement(
+										"a",
+										{ href: "../app/src/imagens/portfolio/cel_super.jpg", title: "Superinteressante Blog- Mobile", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/cel_super.jpg", alt: "Superinteressante Mobile" })
+									)
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "col-md-4 col-sm-6 col-xs-12 mix web" },
+								React.createElement(
+									"div",
+									{ className: "projetos" },
+									React.createElement(
+										"a",
+										{ href: "../app/src/imagens/portfolio/mac_super.jpg", title: "Superinteressante Blog- Desktop", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/mac_super.jpg", alt: "Superinteressante Desktop" })
+									)
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "col-md-4 col-sm-6 col-xs-12 mix web" },
+								React.createElement(
+									"div",
+									{ className: "projetos" },
+									React.createElement(
+										"a",
+										{ href: "../app/src/imagens/portfolio/4r_desktop.jpg", title: "Quatro Rodas - Desktop", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/4r_desktop.jpg", alt: "Quatro Rodas - Desktop" })
+									)
+								)
+							),
+							React.createElement(
+								"div",
+								{ className: "col-md-4 col-sm-6 col-xs-12 mix mobile" },
+								React.createElement(
+									"div",
+									{ className: "projetos" },
+									React.createElement(
+										"a",
+										{ href: "../app/src/imagens/portfolio/4r_mobile.jpg", title: "Quatro Rodas - Mobile", className: "portfolio-popup" },
+										React.createElement("img", { src: "../app/src/imagens/portfolio/4r_mobile.jpg", alt: "Quatro Rodas - Mobile" })
 									)
 								)
 							)
@@ -12343,7 +12351,7 @@ var Sobre = React.createClass({
 							React.createElement(
 								'div',
 								{ className: 'avatar wow flipInX', 'data-wow-duration': '1s', 'data-wow-delay': '1s' },
-								React.createElement('img', { src: '../app/src/imagens/law.png', alt: 'Avatar Vin\xEDcius' })
+								React.createElement('img', { src: '../app/src/imagens/vini.jpg', alt: 'Avatar Vin\xEDcius' })
 							),
 							React.createElement(
 								'div',
@@ -12377,7 +12385,7 @@ var Sobre = React.createClass({
 											{ className: 'facebook' },
 											React.createElement(
 												'a',
-												{ href: '#', target: '_blank' },
+												{ href: 'https://www.facebook.com/vinicius.arruda.90', target: '_blank' },
 												React.createElement('i', { className: 'fa fa-facebook' })
 											)
 										),
@@ -12386,7 +12394,7 @@ var Sobre = React.createClass({
 											{ className: 'linkedin' },
 											React.createElement(
 												'a',
-												{ href: '#', target: '_blank' },
+												{ href: 'https://www.linkedin.com/in/vin%C3%ADcius-arruda-a736b9100', target: '_blank' },
 												React.createElement('i', { className: 'fa fa-linkedin' })
 											)
 										),
@@ -12395,7 +12403,7 @@ var Sobre = React.createClass({
 											{ className: 'google-plus' },
 											React.createElement(
 												'a',
-												{ href: '#', target: '_blank' },
+												{ href: 'https://plus.google.com/u/0/109758076069727824197', target: '_blank' },
 												React.createElement('i', { className: 'fa fa-google' })
 											)
 										)
