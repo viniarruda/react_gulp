@@ -11584,7 +11584,7 @@ var GitHubRepos = __webpack_require__(116);
 function GitHub(props) {
 	var userInfo = props.user ? React.createElement(
 		'section',
-		{ id: 'github' },
+		{ id: 'github', className: 'wow slideInLeft', 'data-wow-duration': '3s' },
 		React.createElement(
 			'div',
 			{ className: 'container' },
@@ -11982,7 +11982,7 @@ var Header = React.createClass({
 								{ className: "menu" },
 								React.createElement(
 									"div",
-									{ className: "logo" },
+									{ className: "logo wow slideInLeft", "data-wow-duration": "0.5s", "data-wow-delay": "1s" },
 									React.createElement(
 										"a",
 										{ href: "index.html" },
@@ -12308,7 +12308,7 @@ var Sobre = React.createClass({
 	render: function () {
 		return React.createElement(
 			'section',
-			{ id: 'sobre' },
+			{ id: 'sobre', className: 'wow slideInLeft', 'data-wow-duration': '1s' },
 			React.createElement(
 				'div',
 				{ className: 'container' },
@@ -12342,7 +12342,7 @@ var Sobre = React.createClass({
 							{ className: 'col-md-6' },
 							React.createElement(
 								'div',
-								{ className: 'avatar' },
+								{ className: 'avatar wow flipInX', 'data-wow-duration': '1s', 'data-wow-delay': '1s' },
 								React.createElement('img', { src: '../app/src/imagens/law.png', alt: 'Avatar Vin\xEDcius' })
 							),
 							React.createElement(

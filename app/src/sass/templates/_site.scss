@@ -56,6 +56,20 @@ header {
 					a {
 						text-transform: uppercase;
 						color: $branco;
+						&:hover {
+							&:after{
+								width: 50%;
+							}
+						}
+						&:after {
+							content:"";
+							display: table;
+							margin: 5px auto;
+							width: 0%;
+							height: 2px;
+							background-color: $branco;
+							@include transition(.3s);
+						}
 					}
 				}
 			}

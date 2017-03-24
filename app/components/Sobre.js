@@ -16,7 +16,7 @@ var Sobre = React.createClass({
 
 	render: function() {
 		return(
-			<section id="sobre">
+			<section id="sobre" className="wow slideInLeft" data-wow-duration="1s">
 				<div className="container">
 					<div className="row">
 						<div className="col-sm-12">
@@ -28,7 +28,7 @@ var Sobre = React.createClass({
 		                        <p>Saiba um pouco sobre mim</p>
 		                    </div>
 				            <div className="col-md-6">
-				            	<div className="avatar">
+				            	<div className="avatar wow flipInX" data-wow-duration="1s" data-wow-delay="1s">
 				            		<img src="../app/src/imagens/law.png" alt="Avatar Vinícius"/>
 				            	</div>
 				            	<div className="box-habilidades">

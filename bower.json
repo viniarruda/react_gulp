@@ -20,5 +20,8 @@
     "font-awesome": "^4.7.0",
     "bootstrap-sass": "^3.3.7",
     "breakpoint-sass": "^2.7.1"
+  },
+  "devDependencies": {
+    "wow": "wowjs#^1.1.2"
   }
 }

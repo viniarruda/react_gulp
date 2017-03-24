@@ -4,7 +4,7 @@ var GitHubRepos = require('./GitHubRepos');
 function GitHub(props) {
 	var userInfo = props.user ?
 		(
-			<section id="github">
+			<section id="github" className="wow slideInLeft" data-wow-duration="3s">
 				<div className="container">
 					<div className="col-lg-4 margin-git">
 	                	<img className="img-circle" src={props.user.avatar_url} alt="avatar" width="140" height="140" />

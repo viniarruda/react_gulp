@@ -89,6 +89,8 @@ $(function(){
         }
 	});
 
+	new WOW().init();
+
 	// Portfólio com Plugin do MagnificPopup
 
 		$('.portfolio-popup').magnificPopup({
